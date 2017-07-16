@@ -10,6 +10,7 @@ demo.state0.prototype = {
     game.stage.backgroundColor = '#990000';
     console.log('state0');
     addChangeStateEventListeners();
+    game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
   },
   update: function(){
     // Updates the frame 60fps
